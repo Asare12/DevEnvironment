@@ -17,8 +17,9 @@ Vagrant.configure("2") do |config|
 - `vagrant up` Launches the VM
 - `vagrant status` Views status of the VM
 - `vagrant ssh` SSH's into the VM
-- 
-
+- `vagrant destroy` stops the VM and destroys config
+- `vagrant suspend` stops the VM but keeps config
+- `exit` Exits the VM
 ## VM Commands
 - Update VM `sudo apt-get update -y` (sudo runs with perms, apt-get is an install manager, -y flag accepts all permissions.) 
 - Install a program `sudo apt-get install {program}` 
