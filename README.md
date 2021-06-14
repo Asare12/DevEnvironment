@@ -30,3 +30,10 @@ Vagrant.configure("2") do |config|
 - Open browser and navigate to 192.168.10.100
 - The nginx splash page should be visible.
 
+## Diagrams
+### Flow Diagram for Vagrant
+![Image of flow diagram for vagrant](https://github.com/Asare12/DevOps-Bootcamp/blob/master/images/flowdiagram.png)
+
+### Vagrant Structure
+![Image of vagrant structure](https://github.com/Asare12/DevOps-Bootcamp/blob/master/images/vagrantdiagram.png)
+
